@@ -2,6 +2,8 @@
   <div>
     <Header></Header>
     <Navigation></Navigation>
+    <Footer></Footer>
+    <Copyright></Copyright>
   </div>
 </template>
 
@@ -14,7 +16,7 @@
 
   export default {
     name: 'landing-page',
-    components: { SystemInformation, Navigation, Copyright },
+    components: { SystemInformation, Header, Navigation, Copyright, Footer },
     methods: {
       open (link) {
         this.$electron.shell.openExternal(link)
