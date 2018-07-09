@@ -57,6 +57,7 @@
   },
   "dependencies": {
     "axios": "^0.16.1",
+    "bootstrap": "^4.1.1",
     "flatpickr": "^4.5.1",
     "noty": "^3.2.0-beta",
     "sweetalert2": "^7.25.0",
