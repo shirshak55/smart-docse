@@ -1,22 +1,25 @@
 <template>
   <div>
-    <Header></Header>
-    <Navigation></Navigation>
+    <div class="page-main">
+      <Header></Header>
+      <Navigation></Navigation>
+      <Home></Home>
+    </div>
     <Footer></Footer>
     <Copyright></Copyright>
   </div>
 </template>
 
 <script>
-  import SystemInformation from './LandingPage/SystemInformation'
-  import Header from './Templates/Header'
-  import Navigation from './Templates/Navigation'
-  import Footer from './Templates/Footer'
-  import Copyright from './Templates/Copyright'
+  import Header from './partials/Header'
+  import Navigation from './partials/Navigation'
+  import Footer from './partials/Footer'
+  import Copyright from './partials/Copyright'
+  import Home from './Home'
 
   export default {
     name: 'landing-page',
-    components: { SystemInformation, Header, Navigation, Copyright, Footer },
+    components: { Header, Navigation, Home, Copyright, Footer },
     methods: {
       open (link) {
         this.$electron.shell.openExternal(link)
