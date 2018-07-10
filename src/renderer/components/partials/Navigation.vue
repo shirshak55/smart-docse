@@ -13,19 +13,19 @@
 	      <div class="col-lg order-lg-first">
 	        <ul class="nav nav-tabs border-0 flex-column flex-lg-row">
 	          <li class="nav-item">
-	            <router-link to="/dashboard" class="nav-link active"><i class="fe fe-home"></i> Dashboard</router-link>
+	            <router-link to="/dashboard" class="nav-link" active-class='active'><i class="fe fe-home"></i> Dashboard</router-link>
 	          </li>
 	           <li class="nav-item dropdown">
-	            <router-link to="/news" class="nav-link"><i class="fe fe-check-cloud-dizzle"></i> News</router-link>
+	            <router-link to="/news" class="nav-link" active-class='active'><i class="fe fe-check-cloud-dizzle"></i> News</router-link>
 	          </li>
 	          <li class="nav-item dropdown">
-	            <router-link to="/result" class="nav-link"><i class="fe fe-check-square"></i> Result</router-link>
+	            <router-link to="/result" class="nav-link" active-class='active'><i class="fe fe-check-square"></i> Result</router-link>
 	          </li>
 	          <li class="nav-item">
-	            <router-link to="/contact" class="nav-link"><i class="fe fe-inbox"></i> Contact Us</router-link>
+	            <router-link to="/contact" class="nav-link" active-class='active'><i class="fe fe-inbox"></i> Contact Us</router-link>
 	          </li>
 	          <li class="nav-item">
-	            <router-link to="/about-us" class="nav-link"><i class="fe fe-airplay"></i> About Us</router-link>
+	            <router-link to="/about-us" class="nav-link" active-class='active'><i class="fe fe-airplay"></i> About Us</router-link>
 	          </li>
 	        </ul>
 	      </div>
