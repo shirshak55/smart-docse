@@ -3,7 +3,7 @@
 		<div class="page-main">
   			<Header></Header>
       	<Navigation></Navigation>
-      	<router-view></router-view>
+      	<router-view :key="$route.name"></router-view>
      </div>
     <Footer></Footer>
     <Copyright></Copyright>
@@ -17,7 +17,7 @@ import Footer from '@/components/partials/Footer'
 import Copyright from '@/components/partials/Copyright'
 
 export default {
-  name: 'Master Layout',
+  name: 'master-layout',
   components: { Header, Navigation, Copyright, Footer }
 }
 </script>

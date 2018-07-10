@@ -5,7 +5,7 @@
 <script>
 
 export default {
-  name: 'Smart-DOCSE'
+  name: 'smart-docse'
 }
 </script>
 

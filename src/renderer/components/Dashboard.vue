@@ -6,6 +6,10 @@
 
 <script>
 export default {
-  name: 'dashboard'
+  name: 'dashboard',
+  data () {
+    return {
+    }
+  }
 }
 </script>
