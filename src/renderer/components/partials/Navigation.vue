@@ -13,21 +13,19 @@
 	      <div class="col-lg order-lg-first">
 	        <ul class="nav nav-tabs border-0 flex-column flex-lg-row">
 	          <li class="nav-item">
-	            <a href="#/dashboard" class="nav-link active"><i class="fe fe-home"></i> Dashboard</a>
+	            <router-link to="/dashboard" class="nav-link active"><i class="fe fe-home"></i> Dashboard</router-link>
+	          </li>
+	           <li class="nav-item dropdown">
+	            <router-link to="/news" class="nav-link"><i class="fe fe-check-cloud-dizzle"></i> News</router-link>
 	          </li>
 	          <li class="nav-item dropdown">
-	            <a href="javascript:void(0)" class="nav-link" data-toggle="dropdown"><i class="fe fe-box"></i> News</a>
-	            <div class="dropdown-menu dropdown-menu-arrow">
-	              <a href="#/news/relvant" class="dropdown-item ">Relvant</a>
-	              <a href="#/news/ku-news" class="dropdown-item ">KU News</a>
-	              <a href="#/news/docse-news" class="dropdown-item ">DOCSE News</a>
-	            </div>
-	          </li>
-	          <li class="nav-item dropdown">
-	            <a href="#/result" class="nav-link"><i class="fe fe-check-square"></i> Result</a>
+	            <router-link to="/result" class="nav-link"><i class="fe fe-check-square"></i> Result</router-link>
 	          </li>
 	          <li class="nav-item">
-	            <a href="#/contact" class="nav-link"><i class="fe fe-image"></i> Contact Us</a>
+	            <router-link to="/contact" class="nav-link"><i class="fe fe-inbox"></i> Contact Us</router-link>
+	          </li>
+	          <li class="nav-item">
+	            <router-link to="/about-us" class="nav-link"><i class="fe fe-airplay"></i> About Us</router-link>
 	          </li>
 	        </ul>
 	      </div>

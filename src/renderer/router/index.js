@@ -23,9 +23,9 @@ export default new Router({
           component: require('@/components/News').default
         },
         {
-          path: '/results',
-          name: 'results',
-          component: require('@/components/Result')
+          path: '/result',
+          name: 'result',
+          component: require('@/components/Result').default
         },
         {
           path: '/about-us',

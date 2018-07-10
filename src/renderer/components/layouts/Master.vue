@@ -3,7 +3,11 @@
 		<div class="page-main">
   			<Header></Header>
       	<Navigation></Navigation>
-      	<router-view :key="$route.name"></router-view>
+        <div class="my-3 my-md-5">
+          <div class="container">
+            <router-view :key="$route.name"></router-view>
+          </div>
+        </div>
      </div>
     <Footer></Footer>
     <Copyright></Copyright>
