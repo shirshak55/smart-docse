@@ -5,8 +5,7 @@
 <script>
 
 export default {
-  name: 'Smart-DOCSE',
-  components: { Header, Navigation, Copyright, Footer }
+  name: 'Smart-DOCSE'
 }
 </script>
 

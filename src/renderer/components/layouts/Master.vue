@@ -11,12 +11,13 @@
 </template>
 
 <script>
-	import Header from '@/components/partials/Header'
-	import Navigation from '@/components/partials/Navigation'
-	import Footer from '@/components/partials/Footer'
-	import Copyright from '@/components/partials/Copyright'
+import Header from '@/components/partials/Header'
+import Navigation from '@/components/partials/Navigation'
+import Footer from '@/components/partials/Footer'
+import Copyright from '@/components/partials/Copyright'
 
-  export default {
-    name: 'Master Layout'
-  }
+export default {
+  name: 'Master Layout',
+  components: { Header, Navigation, Copyright, Footer }
+}
 </script>

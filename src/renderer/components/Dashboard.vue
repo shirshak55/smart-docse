@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="alert">Hello Welcome to DOCSE</div>    
+    <div class="alert alert-success">Welcome to Dashboard</div>    
   </div>
 </template>
 

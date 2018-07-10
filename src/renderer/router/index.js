@@ -25,7 +25,7 @@ export default new Router({
         {
           path: '/results',
           name: 'results',
-          component: require('@/components/Results')
+          component: require('@/components/Result')
         },
         {
           path: '/about-us',
