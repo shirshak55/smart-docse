@@ -7,20 +7,20 @@ export default new Router({
   routes: [
     {
       path: '/',
-      redirect: '/dashboard',
-      name: 'dashboard',
+      name: 'home',
+      redirect: 'dashboard',
       component: require('@/components/layouts/master').default,
 
       children: [
         {
           path: '/dashboard',
           name: 'dashboard',
-          component: require('@/components/Dashboard')
+          component: require('@/components/Dashboard').default
         },
         {
           path: '/news',
           name: 'news',
-          component: require('@/components/News')
+          component: require('@/components/News').default
         },
         {
           path: '/results',
@@ -30,12 +30,12 @@ export default new Router({
         {
           path: '/about-us',
           name: 'about_us',
-          component: require('@/components/AboutUs')
+          component: require('@/components/AboutUs').default
         },
         {
           path: '/contact',
           name: 'contact',
-          component: require('@/components/Contact')
+          component: require('@/components/Contact').default
         }
       ]
     },

@@ -10,7 +10,6 @@ Vue.http = Vue.prototype.$http = axios
 Vue.config.productionTip = false
 
 new Vue({
-  components: { App },
   router,
   store,
   render: (h) => h(App)
