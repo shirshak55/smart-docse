@@ -14,6 +14,15 @@ const state = {
 const getters = {
   getAllNews: (state) => {
     return state.all
+  },
+  getNewsByType: (state, getters, rootState, rootGetters) => {
+    let selectedType = rootGetters['NewsType/get_type']
+    return state.all.filter((news) => {
+      if (selectedType === 'All') {
+        return true
+      }
+      return news.type === selectedType
+    })
   }
 }
 

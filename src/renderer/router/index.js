@@ -20,7 +20,7 @@ export default new Router({
         {
           path: '/news',
           name: 'news',
-          component: require('@/components/News').default
+          component: require('@/components/News/News').default
         },
         {
           path: '/result',
