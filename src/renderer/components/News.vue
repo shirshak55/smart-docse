@@ -20,14 +20,15 @@
 				</router-link>
 			</div>
 		</div>
-		
+
 		<div class="col-md-9">
-			<div class="card">
+			<div class="card" v-for="news in getAllNews">
 				<div class="card-header">
-					<h3 class='card-title'>KU closing today</h3>
+					<h3 class='card-title'>{{ news.title}}</h3>
 				</div>
-				<div class="card-body">
-					<p>We heard KU will be closed for saturday</p>
+				<div class="card-body d-flex flex-column">
+          <img :src="news.cover_image_url" alt="">
+					<p v-html="news.content"></p>
 				</div>
 			</div>
 		</div>
@@ -35,7 +36,20 @@
 </template>
 
 <script>
+import { createNamespacedHelpers } from 'vuex'
+const { mapGetters, mapActions } = createNamespacedHelpers('news')
+
 export default {
-  name: 'news'
+  name: 'news',
+  created () {
+    this.get_all_news()
+  },
+  computed: {
+    ...mapGetters(['getAllNews'])
+  },
+  methods: {
+    ...mapActions(['get_all_news'])
+  }
+
 }
 </script>
