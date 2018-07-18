@@ -7,7 +7,7 @@ const state = {
   email: null,
   content: null,
   errors: null,
-  success: null
+  success_message: null
 }
 
 const getters = {
@@ -22,6 +22,9 @@ const getters = {
   },
   get_content (state) {
     return state.content
+  },
+  get_success_message (state) {
+    return state.success_message
   },
   get_errors (state) {
     return state.errors
@@ -45,22 +48,26 @@ const mutations = {
     state.errors = errors
   },
   SET_SUCCESS (state, data) {
-    state.success = data
+    state.success_message = data
+    state.name = ''
+    state.email = ''
+    state.subject = ''
+    state.content = ''
   }
 }
 
 const actions = {
   async send_contact_to_api ({commit, getters}) {
     try {
-      let {data} = axios.get(apiUrl, {
-        name: getters.get_name,
+      let {data} = await axios.post(apiUrl, {
+        sender_name: getters.get_name,
         email: getters.get_email,
         subject: getters.get_subject,
-        content: getters.get_contents
+        content: getters.get_content
       })
-      commit('SET_SUCCESS', data.data)
+      commit('SET_SUCCESS', data.data.message)
     } catch (e) {
-      commit('SET_ERRORS', e)
+      commit('SET_ERRORS', e.response.data.errors)
     }
   }
 }
