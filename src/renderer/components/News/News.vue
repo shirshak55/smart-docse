@@ -2,7 +2,7 @@
 	<div class='row'>
     <NewsType/>
 		<div class="col-md-9">
-			<div class="card" v-for="news in getNewsByType">
+			<div  class="card" v-for="news in getNewsByType">
 				<div class="card-header">
 					<h3 class='card-title'>{{ news.title}}</h3>
 				</div>
@@ -11,6 +11,13 @@
 					<p v-html="news.content"></p>
 				</div>
 			</div>
+      <template v-if="getNewsByType.length === 0">
+        <div class="card">
+          <div class="card-body">
+            Sorry. No News found on this type.
+          </div>
+        </div>
+      </template>
 		</div>
 	</div>
 </template>

@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d00c3cc-cb68-4f75-8281-df73deafe260" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/renderer/components/News/NewsType.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/renderer/store/modules/NewsType.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/ku.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/renderer/assets/tabler/scss/dashboard/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/assets/tabler/scss/dashboard/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/renderer/components/News.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/components/News/News.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/renderer/components/partials/Copyright.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/components/partials/Copyright.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/renderer/components/partials/Footer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/components/partials/Footer.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/renderer/components/partials/Header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/components/partials/Header.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/renderer/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/renderer/store/modules/Counter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/renderer/store/modules/news.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/store/modules/News.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/renderer/components/News/News.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/components/News/News.vue" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,35 +12,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="News.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/renderer/store/modules/News.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NewsType.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/renderer/store/modules/NewsType.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="632">
-              <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NewsType.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/renderer/components/News/NewsType.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -86,10 +47,10 @@
         <option value="$PROJECT_DIR$/src/renderer/store/modules/NewsCategory.js" />
         <option value="$PROJECT_DIR$/src/renderer/components/News.vue" />
         <option value="$PROJECT_DIR$/src/renderer/router/index.js" />
-        <option value="$PROJECT_DIR$/src/renderer/components/News/News.vue" />
         <option value="$PROJECT_DIR$/src/renderer/store/modules/NewsType.js" />
         <option value="$PROJECT_DIR$/src/renderer/store/modules/News.js" />
         <option value="$PROJECT_DIR$/src/renderer/components/News/NewsType.vue" />
+        <option value="$PROJECT_DIR$/src/renderer/components/News/News.vue" />
       </list>
     </option>
   </component>
@@ -139,6 +100,21 @@
               <item name="smart_docse" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="renderer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smart_docse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smart_docse" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="renderer" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smart_docse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smart_docse" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="renderer" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="News" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="smart_docse" type="b2602c69:ProjectViewProjectNode" />
@@ -216,16 +192,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1531845629690</updated>
-      <workItem from="1531845631591" duration="7882000" />
+      <workItem from="1531845631591" duration="8421000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7882000" />
+    <option name="totallyTimeSpent" value="8421000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
@@ -234,7 +209,7 @@
       <window_info anchor="bottom" id="Version Control" weight="0.32935324" />
       <window_info id="npm" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22738095" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22738095" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="right" id="Nativescript Palette" />
       <window_info anchor="right" id="Database" />
@@ -335,25 +310,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/renderer/components/News/News.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="52" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="52" />
-          <folding>
-            <element signature="e#403#449#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/renderer/components/News/NewsType.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        <state relative-caret-position="307">
+          <caret line="13" column="45" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/renderer/store/modules/News.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+        <state relative-caret-position="480">
+          <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -361,6 +326,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="632">
           <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/renderer/components/News/NewsType.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
         </state>
       </provider>
     </entry>
