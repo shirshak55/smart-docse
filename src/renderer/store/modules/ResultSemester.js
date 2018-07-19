@@ -1,4 +1,4 @@
-const typesMapping = [
+const semestersMapping = [
   'First Semester',
   'Second Semester',
   'Third Semester',
@@ -14,11 +14,11 @@ const state = {
 }
 
 const getters = {
-  get_type (state) {
+  get_semester (state) {
     return state.selected
   },
-  get_types (state) {
-    return typesMapping
+  get_semesters (state) {
+    return semestersMapping
   },
   is_active (state) {
     return (currentType) => {
@@ -28,14 +28,14 @@ const getters = {
 }
 
 const mutations = {
-  SET_TYPE (state, type) {
-    state.selected = type
+  SET_TYPE (state, semester) {
+    state.selected = semester
   }
 }
 
 const actions = {
-  set_type ({commit}, type) {
-    commit('SET_TYPE', type)
+  set_semester ({commit}, semester) {
+    commit('SET_TYPE', semester)
   }
 }
 

@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d00c3cc-cb68-4f75-8281-df73deafe260" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/renderer/store/modules/ResultType.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/store/modules/ResultFaculty.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/renderer/store/modules/ResultType.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/store/modules/ResultSemester.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,20 +35,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ResultType.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/renderer/store/modules/ResultType.js">
+      <file leaf-file-name="ResultSemester.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/renderer/store/modules/ResultSemester.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="739">
-              <caret line="39" column="1" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+            <state relative-caret-position="864">
+              <caret line="36" column="34" selection-end-line="48" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NewsType.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/renderer/store/modules/NewsType.js">
+      <file leaf-file-name="ResultFaculty.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/renderer/store/modules/ResultFaculty.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="512">
-              <caret line="39" selection-start-line="39" selection-end-line="43" selection-end-column="1" />
+            <state relative-caret-position="936">
+              <caret line="39" column="10" lean-forward="true" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -94,6 +95,8 @@
         <option value="$PROJECT_DIR$/src/renderer/components/Contact.vue" />
         <option value="$PROJECT_DIR$/src/renderer/components/partials/Header.vue" />
         <option value="$PROJECT_DIR$/src/renderer/store/modules/ResultType.js" />
+        <option value="$PROJECT_DIR$/src/renderer/store/modules/ResultSemester.js" />
+        <option value="$PROJECT_DIR$/src/renderer/store/modules/ResultFaculty.js" />
       </list>
     </option>
   </component>
@@ -230,12 +233,12 @@
       <workItem from="1531845631591" duration="8421000" />
       <workItem from="1531891021583" duration="4269000" />
       <workItem from="1531903713994" duration="324000" />
-      <workItem from="1531992458318" duration="154000" />
+      <workItem from="1531992458318" duration="311000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13168000" />
+    <option name="totallyTimeSpent" value="13325000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
@@ -396,15 +399,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/renderer/store/modules/NewsType.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
+        <state relative-caret-position="936">
           <caret line="39" selection-start-line="39" selection-end-line="43" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/renderer/store/modules/ResultType.js">
+    <entry file="file://$PROJECT_DIR$/src/renderer/store/modules/ResultSemester.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="739">
-          <caret line="39" column="1" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+        <state relative-caret-position="864">
+          <caret line="36" column="34" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/renderer/store/modules/ResultFaculty.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="936">
+          <caret line="39" column="10" lean-forward="true" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
         </state>
       </provider>
     </entry>
