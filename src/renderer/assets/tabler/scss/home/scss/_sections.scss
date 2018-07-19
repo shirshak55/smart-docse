@@ -1,0 +1,35 @@
+.section {
+	padding: 5rem 0;
+}
+
+.section-dark {
+	background: $background-gray;
+}
+
+.section-title {
+	text-align: center;
+	margin: 0 0 2rem;
+	font-size: 2rem;
+	font-weight: 500;
+}
+
+.section-description {
+	text-align: center;
+	color: $color-muted;
+	margin: -1.5rem auto 3rem;
+	max-width: 48rem;
+	font-size: px2rem(18px);
+}
+
+
+.section-action {
+	background: $background-gradient;
+	color: #fff;
+	text-align: center;
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+
+	.section-description {
+		color: #fff;
+	}
+}

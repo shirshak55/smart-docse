@@ -1,0 +1,102 @@
+h1, h2, h3, h4, h5, h6 {
+	margin: 0 0 .5rem;
+	font-weight: 600;
+}
+
+h1 {
+	font-size: px2rem(32px);
+}
+
+h2 {
+	font-size: px2rem(24px);
+}
+
+h3 {
+	font-size: px2rem(18px);
+}
+
+h4 {
+	font-size: px2rem(16px);
+}
+
+h5 {
+	font-size: px2rem(14px);
+}
+
+h6 {
+	font-size: px2rem(12px);
+}
+
+p {
+	margin: 0 0 1rem;
+}
+
+ul,
+ol {
+	margin-left: 1.5rem;
+}
+
+ul {
+	list-style-type: disc;
+}
+
+ol {
+	list-style-type: decimal;
+}
+
+a {
+	color: $color-blue;
+
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
+code,
+pre {
+	border-radius: 3px;
+	font-family: "Space Mono", SFMono-Regular, Menlo,Monaco, Consolas, Liberation Mono, Courier New, monospace;
+	background: $background-gray;
+	border: 1px solid $border-light;
+	color: #444;
+	font-size: 80%;
+	padding: 0;
+	tab-size: 3;
+}
+
+code {
+	padding: px2rem(3px) px2rem(6px);
+}
+
+pre {
+	padding: .75rem 1rem;
+	margin: 1rem 0 2rem;
+	overflow: auto;
+
+	code {
+		border-radius: 0;
+		border: 0;
+		font-size: 100%;
+		background: transparent;
+		padding: 0;
+	}
+}
+
+hr {
+	padding: 0;
+	margin: 2rem 0;
+	border: 0;
+	border-bottom: 1px solid $border-light;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+	margin: 2rem 0;
+
+	td,
+	th {
+		border: 1px solid $border-light;
+		padding: 0.8rem;
+	}
+}

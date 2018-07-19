@@ -1,0 +1,149 @@
+* {
+	box-sizing: border-box
+}
+
+a, article, aside, audio, b, body, canvas, dd, details, div, dl, dt, em, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, html, i, img, label, li, mark, menu, nav, ol, p, section, span, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, u, ul, video {
+	border: 0;
+	outline: 0;
+	vertical-align: baseline;
+	background: 0 0;
+	font-size: 100%;
+	margin: 0;
+	padding: 0
+}
+
+a {
+	background: 0 0
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0
+}
+
+td, td img {
+	vertical-align: top
+}
+
+button, input, select, textarea {
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0
+}
+
+input[type=text], input[type=password], input[type=email], input[type=phone], input[type=number], textarea {
+	font: 12px Arial, Helvetica, sans-serif;
+	padding: 0
+}
+
+sub, sup {
+	font-size: smaller
+}
+
+input[type=checkbox] {
+	vertical-align: bottom
+}
+
+input[type=radio] {
+	vertical-align: text-bottom
+}
+
+sub {
+	vertical-align: sub
+}
+
+sup {
+	vertical-align: super
+}
+
+article, aside, details, figcaption, figure, footer, header, menu, nav, section {
+	display: block
+}
+
+ol, ul {
+	list-style: none
+}
+
+html {
+	overflow-y: scroll;
+	overflow-x: auto
+}
+
+body, html {
+	height: 100%
+}
+
+body {
+	line-height: 1;
+	color: #000;
+	text-align: left;
+	z-index: 1
+}
+
+input [type=text] {
+	padding: 0
+}
+
+textarea {
+	resize: none;
+	overflow: auto
+}
+
+button, input[type=submit], input[type=reset], input[type=tel], input[type=text], input[type=password], input[type=email], input[type=phone], input[type=number], input[type=button], textarea {
+	-webkit-appearance: none
+}
+
+a, a:active, a:focus, a:hover, a:visited {
+	text-decoration: none
+}
+
+button::-moz-focus-inner, input[type=submit]::-moz-focus-inner {
+	border: 0;
+	padding: 0
+}
+
+input:invalid {
+	outline: 0;
+	border: none
+}
+
+::-ms-clear {
+	display: none
+}
+
+:focus, input, input[type=search]:focus, textarea {
+	outline: 0
+}
+
+::-webkit-input-placeholder {
+	color: #aeaeae;
+	-webkit-transition: color .3s ease-in-out
+}
+
+:-moz-placeholder {
+	color: #aeaeae;
+	-webkit-transition: color .3s ease-in-out;
+	transition: color .3s ease-in-out
+}
+
+::placeholder {
+	color: #aeaeae;
+	-webkit-transition: color .3s ease-in-out;
+	transition: color .3s ease-in-out
+}
+
+:focus::-webkit-input-placeholder {
+	color: transparent
+}
+
+:focus::-moz-placeholder {
+	color: transparent
+}
+
+:focus:-moz-placeholder {
+	color: transparent
+}
+
+:focus:-ms-input-placeholder {
+	color: transparent
+}

@@ -13,11 +13,6 @@ export default new Router({
 
       children: [
         {
-          path: '/dashboard',
-          name: 'dashboard',
-          component: require('@/components/Dashboard').default
-        },
-        {
           path: '/news',
           name: 'news',
           component: require('@/components/News/News').default
@@ -38,6 +33,11 @@ export default new Router({
           component: require('@/components/Contact').default
         }
       ]
+    },
+    {
+      path: '/dashboard',
+      name: 'dashboard',
+      component: require('@/components/Dashboard').default
     },
     {
       path: '*',

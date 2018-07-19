@@ -1,0 +1,179 @@
+.container {
+	position: relative;
+	z-index: 1;
+	width: 100%;
+	max-width: 64rem;
+	padding: 0 1.5rem;
+	margin: 0 auto;
+}
+
+.container {
+	@include make-container();
+	@include make-container-max-widths();
+}
+
+.container-fluid {
+	@include make-container();
+}
+
+.row {
+	@include make-row();
+}
+
+.no-gutters {
+	margin-right: 0;
+	margin-left: 0;
+
+	> .col,
+	> [class*="col-"] {
+		padding-right: 0;
+		padding-left: 0;
+	}
+}
+
+@include make-grid-columns();
+
+@each $breakpoint in map-keys($grid-breakpoints) {
+	@include media-breakpoint-up($breakpoint) {
+		$infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+
+		@each $prop, $abbrev in (margin: m, padding: p) {
+			@each $size, $length in $spacers {
+
+				.#{$abbrev}#{$infix}-#{$size} {
+					#{$prop}: $length !important;
+				}
+				.#{$abbrev}t#{$infix}-#{$size},
+				.#{$abbrev}y#{$infix}-#{$size} {
+					#{$prop}-top: $length !important;
+				}
+				.#{$abbrev}r#{$infix}-#{$size},
+				.#{$abbrev}x#{$infix}-#{$size} {
+					#{$prop}-right: $length !important;
+				}
+				.#{$abbrev}b#{$infix}-#{$size},
+				.#{$abbrev}y#{$infix}-#{$size} {
+					#{$prop}-bottom: $length !important;
+				}
+				.#{$abbrev}l#{$infix}-#{$size},
+				.#{$abbrev}x#{$infix}-#{$size} {
+					#{$prop}-left: $length !important;
+				}
+			}
+		}
+
+		// Some special margin utils
+		.m#{$infix}-auto {
+			margin: auto !important;
+		}
+		.mt#{$infix}-auto,
+		.my#{$infix}-auto {
+			margin-top: auto !important;
+		}
+		.mr#{$infix}-auto,
+		.mx#{$infix}-auto {
+			margin-right: auto !important;
+		}
+		.mb#{$infix}-auto,
+		.my#{$infix}-auto {
+			margin-bottom: auto !important;
+		}
+		.ml#{$infix}-auto,
+		.mx#{$infix}-auto {
+			margin-left: auto !important;
+		}
+	}
+}
+
+@each $breakpoint in map-keys($grid-breakpoints) {
+	@include media-breakpoint-up($breakpoint) {
+		$infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+
+		.flex#{$infix}-row            { flex-direction: row !important; }
+		.flex#{$infix}-column         { flex-direction: column !important; }
+		.flex#{$infix}-row-reverse    { flex-direction: row-reverse !important; }
+		.flex#{$infix}-column-reverse { flex-direction: column-reverse !important; }
+
+		.flex#{$infix}-wrap         { flex-wrap: wrap !important; }
+		.flex#{$infix}-nowrap       { flex-wrap: nowrap !important; }
+		.flex#{$infix}-wrap-reverse { flex-wrap: wrap-reverse !important; }
+
+		.justify-content#{$infix}-start   { justify-content: flex-start !important; }
+		.justify-content#{$infix}-end     { justify-content: flex-end !important; }
+		.justify-content#{$infix}-center  { justify-content: center !important; }
+		.justify-content#{$infix}-between { justify-content: space-between !important; }
+		.justify-content#{$infix}-around  { justify-content: space-around !important; }
+
+		.align-items#{$infix}-start    { align-items: flex-start !important; }
+		.align-items#{$infix}-end      { align-items: flex-end !important; }
+		.align-items#{$infix}-center   { align-items: center !important; }
+		.align-items#{$infix}-baseline { align-items: baseline !important; }
+		.align-items#{$infix}-stretch  { align-items: stretch !important; }
+
+		.align-content#{$infix}-start   { align-content: flex-start !important; }
+		.align-content#{$infix}-end     { align-content: flex-end !important; }
+		.align-content#{$infix}-center  { align-content: center !important; }
+		.align-content#{$infix}-between { align-content: space-between !important; }
+		.align-content#{$infix}-around  { align-content: space-around !important; }
+		.align-content#{$infix}-stretch { align-content: stretch !important; }
+
+		.align-self#{$infix}-auto     { align-self: auto !important; }
+		.align-self#{$infix}-start    { align-self: flex-start !important; }
+		.align-self#{$infix}-end      { align-self: flex-end !important; }
+		.align-self#{$infix}-center   { align-self: center !important; }
+		.align-self#{$infix}-baseline { align-self: baseline !important; }
+		.align-self#{$infix}-stretch  { align-self: stretch !important; }
+	}
+}
+
+
+@each $breakpoint in map-keys($grid-breakpoints) {
+	@include media-breakpoint-up($breakpoint) {
+		$infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+
+		.d#{$infix}-none         { display: none !important; }
+		.d#{$infix}-inline       { display: inline !important; }
+		.d#{$infix}-inline-block { display: inline-block !important; }
+		.d#{$infix}-block        { display: block !important; }
+		.d#{$infix}-table        { display: table !important; }
+		.d#{$infix}-table-row    { display: table-row !important; }
+		.d#{$infix}-table-cell   { display: table-cell !important; }
+		.d#{$infix}-flex         { display: flex !important; }
+		.d#{$infix}-inline-flex  { display: inline-flex !important; }
+	}
+}
+
+
+//
+// Utilities for toggling `display` in print
+//
+
+.d-print-block {
+	display: none !important;
+
+	@media print {
+		display: block !important;
+	}
+}
+
+.d-print-inline {
+	display: none !important;
+
+	@media print {
+		display: inline !important;
+	}
+}
+
+.d-print-inline-block {
+	display: none !important;
+
+	@media print {
+		display: inline-block !important;
+	}
+}
+
+.d-print-none {
+	@media print {
+		display: none !important;
+	}
+}

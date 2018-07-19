@@ -1,0 +1,40 @@
+$color-blue: #1C7ED6;
+$color-text: #4A4A4A;
+$color-headers: #151414;
+$color-muted: #8d96a7;
+$color-muted-dark: darken($color-muted, 15%);
+
+$border-light: #eee;
+
+$background-gray: #f8f8fa;
+$background-gradient: linear-gradient(to right, #1488cc, #2b32b2);
+
+$grid-gutter-width: 1rem;
+
+$container-max-widths: (
+		sm: 34rem,
+		md: 45rem,
+		lg: 56rem,
+		xl: 64rem
+);
+
+$grid-columns: 12;
+
+$grid-breakpoints: (
+		xs: 0,
+		sm: 576px,
+		md: 768px,
+		lg: 992px,
+		xl: 1200px
+);
+
+$spacers: (
+		0: 0,
+		1: .5rem,
+		2: .75rem,
+		3: 1rem,
+		4: 1.5rem,
+		5: 2rem,
+		6: 4rem,
+		7: 6rem
+) !default;
