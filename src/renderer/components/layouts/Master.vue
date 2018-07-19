@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <main>
 		<div class="page-main">
   			<Header></Header>
       	<Navigation></Navigation>
@@ -11,7 +11,7 @@
      </div>
     <Footer></Footer>
     <Copyright></Copyright>
-  </div>
+  </main>
 </template>
 
 <script>
@@ -25,3 +25,14 @@ export default {
   components: { Header, Navigation, Copyright, Footer }
 }
 </script>
+
+
+<style lang="sass">
+  @import '~noty/src/themes/bootstrap-v4'
+  @import '~@/assets/tabler/scss/bundle'
+  @import '~noty/src/noty'
+  @import '~flatpickr/dist/flatpickr.css'
+
+  [v-cloak]
+    display: none
+</style>

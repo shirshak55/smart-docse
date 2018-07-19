@@ -14,7 +14,7 @@
 	}
 }
 
-.card-body {
+.card-main {
 	flex: 1 1 auto;
 	margin: 0;
 	padding: $card-spacer-y $card-spacer-x;
@@ -33,7 +33,7 @@
 	}
 }
 
-.card-body-scrollable {
+.card-main-scrollable {
 	overflow: auto;
 }
 
@@ -59,7 +59,7 @@
 		margin-bottom: 0;
 	}
 
-	&.border-0 + .card-body {
+	&.border-0 + .card-main {
 		padding-top: 0;
 	}
 
@@ -128,7 +128,7 @@
 		}
 	}
 
-	.card-body + & {
+	.card-main + & {
 		border-top: 1px solid $border-color;
 	}
 }
@@ -156,7 +156,7 @@
 }
 
 .card-list-group {
-	.card-body + & {
+	.card-main + & {
 		border-top: 1px solid $border-color;
 	}
 

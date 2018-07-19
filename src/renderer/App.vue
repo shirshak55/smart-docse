@@ -1,6 +1,8 @@
 <template>
 	<div id="app">
-	  <router-view/>
+    <transition>
+      <router-view></router-view>
+    </transition>
 	</div>
 </template>
 
@@ -11,13 +13,3 @@ export default {
 }
 </script>
 
-<style lang="scss">
-@import "assets/tabler/scss/bundle";
-@import "~noty/src/noty";
-@import "~noty/src/themes/bootstrap-v4";
-@import "~sweetalert2/src/sweetalert2";
-@import "~flatpickr/dist/flatpickr.css";
-[v-cloak] {
-  display: none;
-}
-</style>

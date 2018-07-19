@@ -69,6 +69,6 @@ $custom-switch-padding: 1px;
 	transition: .3s color;
 
 	.custom-switch-input:checked ~ & {
-		color: $body-color;
+		color: $main-color;
 	}
 }

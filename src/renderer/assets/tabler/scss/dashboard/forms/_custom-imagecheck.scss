@@ -80,6 +80,6 @@
 	.imagecheck:hover &,
 	.imagecheck-input:focus ~ .imagecheck-figure &,
 	.imagecheck-input:checked ~ .imagecheck-figure & {
-		color: $body-color;
+		color: $main-color;
 	}
 }

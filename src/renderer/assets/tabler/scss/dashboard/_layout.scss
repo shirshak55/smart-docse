@@ -4,11 +4,11 @@
 	justify-content: center;
 	min-height: 100%;
 
-	body.fixed-header & {
+	main.fixed-header & {
 		padding-top: $header-height;
 	}
 
-	body.aside-opened & {
+	main.aside-opened & {
 		@media (min-width: 1600px) {
 			margin-right: $aside-width;
 		}

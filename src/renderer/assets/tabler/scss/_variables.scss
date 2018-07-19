@@ -121,8 +121,8 @@ $social-colors: (
 	"bitbucket": #0052cc,
 );
 
-$body-bg: #f5f7fb;
-$body-color: $gray-700;
+$main-bg: #f5f7fb;
+$main-color: $gray-700;
 
 // Code
 $code-font-size: 85%;
@@ -135,7 +135,7 @@ $pre-color: $gray-900;
 
 // Yiq
 $yiq-contrasted-threshold: 190;
-$yiq-text-dark: $body-color;
+$yiq-text-dark: $main-color;
 $yiq-text-light: $white;
 
 // Buttons
@@ -282,10 +282,10 @@ $list-group-active-bg: mix($primary, #fff, 4%);
 $list-group-active-border-color: $list-group-border-color;
 
 // Popovers
-$popover-body-padding-y: .75rem;
-$popover-body-padding-x: 1rem;
+$popover-main-padding-y: .75rem;
+$popover-main-padding-x: 1rem;
 $popover-border-color: #dee3eb;
-$popover-body-color: $text-muted-dark;
+$popover-main-color: $text-muted-dark;
 $popover-arrow-width: .5rem;
 $popover-arrow-height: .5rem;
 
@@ -304,7 +304,7 @@ $hr-border-color: $border-color;
 $thumbnail-bg: #fff;
 
 // Pagination
-$pagination-color: $body-color;
+$pagination-color: $main-color;
 $pagination-disabled-color: $gray-400;
 
 // Navs

@@ -56,7 +56,7 @@
     float: right;
     margin: 1rem 1.5rem;
     text-align: right;
-    color: $body-color;
+    color: $main-color;
     input{
       @extend .form-control;
       width: auto;
@@ -64,7 +64,7 @@
       display: inline-block;
     }
   }
-  
+
   .dataTables_paginate {
     float: right;
     text-align: right;
@@ -79,9 +79,9 @@
   }
   .dataTables_info {
     clear: both;
-    float: left;    
+    float: left;
     margin: 1rem 1.5rem;
-    color: $body-color;
+    color: $main-color;
     line-height: 38px;
   }
 }

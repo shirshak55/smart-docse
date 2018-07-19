@@ -40,11 +40,11 @@
 }
 
 .table-striped {
-	tbody tr:nth-of-type(odd) {
+	tmain tr:nth-of-type(odd) {
 		background: transparent;
 	}
 
-	tbody tr:nth-of-type(even) {
+	tmain tr:nth-of-type(even) {
 		background-color: $table-accent-bg;
 	}
 }
@@ -72,7 +72,7 @@
 	display: inline-block;
 	border-radius: 3px;
 	background: $gray-100;
-	color: $body-color;
+	color: $main-color;
 	font-weight: 600;
 	transition: .3s background, .3s color;
 	position: relative;
@@ -106,7 +106,7 @@
 	transition: .3s color;
 
 	&:hover {
-		color: $body-color !important;
+		color: $main-color !important;
 	}
 
 	&:after {
@@ -119,7 +119,7 @@
 }
 
 .table-header-asc {
-	color: $body-color !important;
+	color: $main-color !important;
 
 	&:after {
 		content: '\f0de';
@@ -127,7 +127,7 @@
 }
 
 .table-header-desc {
-	color: $body-color !important;
+	color: $main-color !important;
 
 	&:after {
 		content: '\f0dd';
