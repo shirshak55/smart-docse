@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7d00c3cc-cb68-4f75-8281-df73deafe260" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/renderer/components/Result/ResultFaculty.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/renderer/components/Result/ResultSemester.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/renderer/components/Result.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/components/Result/Result.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/renderer/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/renderer/store/modules/ResultFaculty.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/store/modules/ResultFaculty.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/renderer/store/modules/ResultSemester.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/store/modules/ResultSemester.js" afterDir="false" />
-    </list>
+    <list default="true" id="7d00c3cc-cb68-4f75-8281-df73deafe260" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,41 +11,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ResultFaculty.vue" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/renderer/components/Result/ResultFaculty.vue">
+      <file leaf-file-name="News.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/renderer/store/modules/News.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/renderer/router/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="471">
-              <caret line="27" column="56" selection-start-line="27" selection-start-column="56" selection-end-line="27" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NewsType.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/renderer/components/News/NewsType.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="13" selection-start-line="13" selection-end-line="13" selection-end-column="103" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="News.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/renderer/components/News/News.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="672">
-              <caret line="28" selection-start-line="28" selection-end-line="28" selection-end-column="91" />
-              <folding>
-                <element signature="e#616#662#0" expanded="true" />
-              </folding>
+            <state>
+              <caret selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -266,12 +228,12 @@
       <workItem from="1531845631591" duration="8421000" />
       <workItem from="1531891021583" duration="4269000" />
       <workItem from="1531903713994" duration="324000" />
-      <workItem from="1531992458318" duration="1388000" />
+      <workItem from="1531992458318" duration="1536000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14402000" />
+    <option name="totallyTimeSpent" value="14550000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="30" y="131" width="1680" height="1027" extended-state="0" />
@@ -372,13 +334,6 @@
     <entry file="file://$PROJECT_DIR$/src/renderer/components/AboutUs.vue">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/renderer/store/modules/News.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7">
-          <caret line="2" column="11" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/renderer/components/Contact.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
@@ -470,6 +425,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
           <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/renderer/store/modules/News.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="7" />
         </state>
       </provider>
     </entry>
