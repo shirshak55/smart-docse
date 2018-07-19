@@ -28,14 +28,14 @@ const getters = {
 }
 
 const mutations = {
-  SET_TYPE (state, semester) {
+  SET_SEMESTER (state, semester) {
     state.selected = semester
   }
 }
 
 const actions = {
   set_semester ({commit}, semester) {
-    commit('SET_TYPE', semester)
+    commit('SET_SEMESTER', semester)
   }
 }
 

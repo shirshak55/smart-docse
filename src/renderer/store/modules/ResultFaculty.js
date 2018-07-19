@@ -4,14 +4,14 @@ const facultysMapping = [
 ]
 
 const state = {
-  selected: 'First Semester'
+  selected: 'CE'
 }
 
 const getters = {
   get_faculty (state) {
     return state.selected
   },
-  get_facultys (state) {
+  get_faculties (state) {
     return facultysMapping
   },
   is_active (state) {
@@ -22,14 +22,14 @@ const getters = {
 }
 
 const mutations = {
-  SET_TYPE (state, faculty) {
+  SET_FACULTY (state, faculty) {
     state.selected = faculty
   }
 }
 
 const actions = {
   set_faculty ({commit}, faculty) {
-    commit('SET_TYPE', faculty)
+    commit('SET_FACULTY', faculty)
   }
 }
 
