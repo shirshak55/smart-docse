@@ -2,36 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d00c3cc-cb68-4f75-8281-df73deafe260" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/static/images/macbook.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/result.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.electron-vue/webpack.renderer.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/.electron-vue/webpack.renderer.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/renderer/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/renderer/assets/tabler/scss/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/assets/tabler/scss/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/renderer/assets/tabler/scss/dashboard/_aside.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/assets/tabler/scss/dashboard/_aside.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/renderer/assets/tabler/scss/dashboard/_browser.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/assets/tabler/scss/dashboard/_browser.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/renderer/assets/tabler/scss/dashboard/_cards.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/assets/tabler/scss/dashboard/_cards.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/renderer/assets/tabler/scss/dashboard/_chat.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/assets/tabler/scss/dashboard/_chat.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/renderer/assets/tabler/scss/dashboard/_core.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/assets/tabler/scss/dashboard/_core.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/renderer/assets/tabler/scss/dashboard/_datatables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/assets/tabler/scss/dashboard/_datatables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/renderer/assets/tabler/scss/dashboard/_example.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/assets/tabler/scss/dashboard/_example.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/renderer/assets/tabler/scss/dashboard/_flag.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/assets/tabler/scss/dashboard/_flag.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/renderer/assets/tabler/scss/dashboard/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/assets/tabler/scss/dashboard/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/renderer/assets/tabler/scss/dashboard/_layout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/assets/tabler/scss/dashboard/_layout.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/renderer/assets/tabler/scss/dashboard/_maps.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/assets/tabler/scss/dashboard/_maps.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/renderer/assets/tabler/scss/dashboard/_payments.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/assets/tabler/scss/dashboard/_payments.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/renderer/assets/tabler/scss/dashboard/_selectize.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/assets/tabler/scss/dashboard/_selectize.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/renderer/assets/tabler/scss/dashboard/_tables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/assets/tabler/scss/dashboard/_tables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/renderer/assets/tabler/scss/dashboard/_text.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/assets/tabler/scss/dashboard/_text.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/renderer/assets/tabler/scss/dashboard/_utilities.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/assets/tabler/scss/dashboard/_utilities.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/renderer/assets/tabler/scss/dashboard/fonts/_feather.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/assets/tabler/scss/dashboard/fonts/_feather.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/renderer/assets/tabler/scss/dashboard/forms/_custom-imagecheck.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/assets/tabler/scss/dashboard/forms/_custom-imagecheck.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/renderer/assets/tabler/scss/dashboard/forms/_custom-switch.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/assets/tabler/scss/dashboard/forms/_custom-switch.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/renderer/assets/tabler/scss/home/scss/_core.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/assets/tabler/scss/home/scss/_core.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/renderer/assets/tabler/scss/home/scss/_reset.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/assets/tabler/scss/home/scss/_reset.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/renderer/components/Dashboard.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/components/Dashboard.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/renderer/components/layouts/Master.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/components/layouts/Master.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/renderer/components/partials/Header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/components/partials/Header.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -60,11 +31,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Dashboard.vue" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Dashboard.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/renderer/components/Dashboard.vue">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="808">
               <caret line="45" column="80" selection-start-line="45" selection-start-column="80" selection-end-line="45" selection-end-column="80" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="672">
+                <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -147,6 +130,7 @@
         <option value="$PROJECT_DIR$/src/renderer/components/layouts/Master.vue" />
         <option value="$PROJECT_DIR$/src/renderer/components/partials/Header.vue" />
         <option value="$PROJECT_DIR$/src/renderer/components/Dashboard.vue" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -337,12 +321,12 @@
       <workItem from="1531845631591" duration="8421000" />
       <workItem from="1531891021583" duration="4269000" />
       <workItem from="1531903713994" duration="324000" />
-      <workItem from="1531992458318" duration="9934000" />
+      <workItem from="1531992458318" duration="10836000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22948000" />
+    <option name="totallyTimeSpent" value="23850000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -356,7 +340,7 @@
       <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2625" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18095239" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Nativescript Palette" order="3" />
       <window_info anchor="right" id="Database" order="3" />
@@ -384,13 +368,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/renderer/components/partials/Header.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/renderer/assets/tabler/scss/dashboard/_header.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="349">
@@ -674,6 +651,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="808">
           <caret line="45" column="80" selection-start-line="45" selection-start-column="80" selection-end-line="45" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="672">
+            <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

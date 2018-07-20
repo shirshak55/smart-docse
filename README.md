@@ -1,6 +1,47 @@
-# smart-docse
+# Smart DOCSE
 
 > DOCSE General Purpose Application
+
+# Technologies Used
+Various open source projects are used. We also have api built in for fetching various data. The main technology used are given below.
+
+For Desktop App
+* Webpack (For Module Bundling)
+* Electron ( For Cross Platform Desktop App Development)
+* SASS (For Styles)
+* Vue JS (For Components)
+* Vuex (For State Mangaement)
+* Vue Router (For Routing)
+* Electron-vue (Used Boilerplate code at start)
+* Unit testing
+
+
+For Backend 
+* Laravel
+* Vue JS
+* Vuex
+* and many other opensource projects
+
+# Features
+* Excel Exporting so people who prefer excel can use it easily
+* Good Design using Human Computer Interaction
+* Easy to use Interface
+
+
+# Future Plans
+* Pagination
+* Fully Optmized Search (Cost money for Algolia)
+* Continuos Integration (Cost money)
+* Login/Logout
+* More Smart like based on login etc show results etc.
+* Privacy Oriented
+
+# Requirements
+* Latest Version of PHP (At the moment PHP 7.1)
+* Latest Version of Node JS (At the moment V10)
+* Around 1 GB of RAM due to fact Node JS require huge memory
+* Gigabit connection as burst traffic may affect api
+
 
 #### Build Setup
 
@@ -24,5 +65,3 @@ npm run lint
 ```
 
 ---
-
-This project was generated with [electron-vue](https://github.com/SimulatedGREG/electron-vue)@[4c6ee7b](https://github.com/SimulatedGREG/electron-vue/tree/4c6ee7bf4f9b4aa647a22ec1c1ca29c2e59c3645) using [vue-cli](https://github.com/vuejs/vue-cli). Documentation about the original structure can be found [here](https://simulatedgreg.gitbooks.io/electron-vue/content/index.html).
