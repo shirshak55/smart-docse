@@ -1,7 +1,5 @@
 <template>
 	<div>
-    <h3 class='page'>About Us</h3>
-
     <div class="row row-cards row-deck">
       <div class="col-md-4">
         <div class="card">

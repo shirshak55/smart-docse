@@ -1,7 +1,5 @@
 <template>
 	<div>
-		<h3 class='card-title'>Contact</h3>
-
     <div class="alert alert-success alert-dismissible" v-if="get_success_message"><i class="fe fe-bell mr-2" aria-hidden="true"></i> {{ get_success_message }}</div>
 
     <div class="alert alert-danger" v-if="get_errors" v-for="error in get_errors">{{ error[0] }}</div>
