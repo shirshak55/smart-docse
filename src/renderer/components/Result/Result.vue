@@ -1,7 +1,7 @@
 <template>
 	<div class="row">
     <ResultSemester></ResultSemester>
-    <div class="col-md-8">
+    <div class="col-md-8 mt-4">
       <h1 class="page-title">Result Section</h1>
       <ResultFaculty></ResultFaculty>
       <div class="card" v-for="resultSet in getFilteredResults">

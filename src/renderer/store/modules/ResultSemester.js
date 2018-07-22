@@ -10,7 +10,7 @@ const semestersMapping = [
 ]
 
 const state = {
-  selected: '1'
+  selected: 1
 }
 
 const getters = {
