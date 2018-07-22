@@ -2,6 +2,10 @@
 DOCSE General Purpose Application
 
 # Screenshots
+![Dashboard](/docs/screenshots/dashboard.png "Dashboard")
+![News](/docs/screenshots/news.png "News")
+![Contact](/docs/screenshots/contact.png "Contact")
+![Result](/docs/screenshots/result.png "Result")
 
 
 # Technologies Used
@@ -66,8 +70,3 @@ npm run lint
 
 ```
 
-# Screenshots
-![Dashboard](/docs/screenshots/dashboard.png "Dashboard")
-![News](/docs/screenshots/news.png "News")
-![Contact](/docs/screenshots/contact.png "Contact")
-![Result](/docs/screenshots/result.png "Result")
