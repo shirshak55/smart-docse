@@ -23,7 +23,7 @@
   },
   "build": {
     "productName": "smart-docse",
-    "appId": "org.simulatedgreg.electron-vue",
+    "appId": "org.shirshak.smart_docse",
     "directories": {
       "output": "build"
     },
