@@ -1,5 +1,5 @@
 {
-  "name": "smart-docse",
+  "name": "Smart DOCSE",
   "version": "0.0.0",
   "author": "Shirshak Bajgain <bloggervista@gmail.com>",
   "description": "DOCSE General Purpose Application",
@@ -22,7 +22,7 @@
     "postinstall": "npm run lint:fix"
   },
   "build": {
-    "productName": "smart-docse",
+    "productName": "Smart DOCSE",
     "appId": "org.shirshak.smart_docse",
     "directories": {
       "output": "build"
