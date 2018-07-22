@@ -1,6 +1,8 @@
 # Smart DOCSE
+DOCSE General Purpose Application
 
-> DOCSE General Purpose Application
+# Screenshots
+
 
 # Technologies Used
 Various open source projects are used. We also have api built in for fetching various data. The main technology used are given below.
@@ -15,7 +17,6 @@ For Desktop App
 * Electron-vue (Used Boilerplate code at start)
 * Unit testing
 
-
 For Backend 
 * Laravel
 * Vue JS
@@ -26,6 +27,7 @@ For Backend
 * Excel Exporting so people who prefer excel can use it easily
 * Good Design using Human Computer Interaction
 * Easy to use Interface
+
 
 
 # Future Plans
@@ -64,4 +66,8 @@ npm run lint
 
 ```
 
----
+# Screenshots
+![Dashboard](/docs/screenshots/dashboard.png "Dashboard")
+![News](/docs/screenshots/news.png "News")
+![Contact](/docs/screenshots/contact.png "Contact")
+![Result](/docs/screenshots/result.png "Result")

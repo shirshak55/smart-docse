@@ -1,6 +1,6 @@
 <template>
 	<div>
-ß    <div class="row row-cards row-deck">
+    <div class="row row-cards row-deck">
       <div class="col-md-4">
         <div class="card">
           <div class="card-alert alert alert-warning mb-0">Created By:</div>
