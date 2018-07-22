@@ -23,9 +23,10 @@ function createWindow () {
     height: 768,
     useContentSize: true,
     width: 1280,
-    resizable: false
+    resizable: false,
+    icon: require('path').join(__dirname, '../renderer/assets/logo.png')
   })
-
+  console.log(__dirname, '/../renderer/assets/logo.png')
   mainWindow.loadURL(winURL)
 
   mainWindow.on('closed', () => {
