@@ -9,7 +9,7 @@ export default new Router({
       path: '/',
       name: 'home',
       redirect: 'dashboard',
-      component: require('@/components/layouts/master').default,
+      component: require('@/components/layouts/Master').default,
 
       children: [
         {
