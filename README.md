@@ -49,6 +49,10 @@ For Backend
 * Gigabit connection as burst traffic may affect api
 
 
+# Open Source Projects Used
+... coming soon
+ At the moment I can say I used mainly electron-vue. 
+
 #### Build Setup
 
 ``` bash
