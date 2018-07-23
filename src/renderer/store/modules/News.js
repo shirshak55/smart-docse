@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-let baseUrl = 'http://smart_docse.test/'
+let baseUrl = 'http://smart-docse.test/'
 
 let apiUrl = {
   all: baseUrl + 'api/v1/news'

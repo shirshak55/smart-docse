@@ -1,5 +1,5 @@
 import axios from 'axios'
-const apiUrl = 'http://smart_docse.test/api/v1/contact'
+const apiUrl = 'http://smart-docse.test/api/v1/contact'
 
 const state = {
   name: null,
