@@ -2,10 +2,10 @@
 DOCSE General Purpose Application
 
 # Screenshots
-![Dashboard](/docs/screenshots/dashboard.png "Dashboard")
-![News](/docs/screenshots/news.png "News")
-![Contact](/docs/screenshots/contact.png "Contact")
-![Result](/docs/screenshots/result.png "Result")
+![Dashboard](/docs/screenshots/dashboard.png#1 "Dashboard")
+![News](/docs/screenshots/news.png#2 "News")
+![Contact](/docs/screenshots/contact.png#3 "Contact")
+![Result](/docs/screenshots/result.png#4 "Result")
 
 
 # Technologies Used
