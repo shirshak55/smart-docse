@@ -2,7 +2,7 @@
 	<div class='row'>
     <NewsType/>
 		<div class="col-md-8">
-			<div  class="card" v-for="news in getNewsByType">
+			<div  class="card" v-for="news in getNewsByType" :key="news.title">
 				<div class="card-header">
 					<h3 class='card-title'>{{ news.title}}</h3>
 				</div>
