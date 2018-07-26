@@ -2,7 +2,7 @@
 	<div>
     <div class="alert alert-success alert-dismissible" v-if="get_success_message"><i class="fe fe-bell mr-2" aria-hidden="true"></i> {{ get_success_message }}</div>
 
-    <div class="alert alert-danger" v-if="get_errors" v-for="error in get_errors">{{ error[0] }}</div>
+    <div class="alert alert-danger" v-if="get_errors" v-for="(error,index) in get_errors" :key="index">{{ error[0] }}</div>
 
     <form class="card" @submit.prevent="send_contact_to_api">
       <div class="card-body">
