@@ -7,7 +7,7 @@
 					<h3 class='card-title'>{{ news.title}}</h3>
 				</div>
 				<div class="card-body d-flex flex-column">
-          <img :src="news.cover_image_url" alt="">
+          <!-- <img :src="news.cover_image_url"> -->
 					<p v-html="news.content"></p>
 				</div>
 			</div>
