@@ -1,6 +1,8 @@
 # Smart DOCSE
 DOCSE General Purpose Application
 
+I made it for Kathmandu University. But due to lack of financial support like money for servers etc I will not support this project. If you want to support me or want me to work  please raise issue from issue tab or contact me directly.
+
 # Screenshots
 ![Dashboard](/docs/screenshots/dashboard.png#1 "Dashboard")
 ![News](/docs/screenshots/news.png#2 "News")
