@@ -60,6 +60,11 @@ For Backend
 # Open Source Projects Used
 ... coming soon
  At the moment I can say I used mainly electron-vue. 
+ 
+ # Future 
+* Login with JWT
+* Remove kathmandu university logo .
+* Add More Feature
 
 #### Build Setup
 
