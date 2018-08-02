@@ -3,7 +3,11 @@ DOCSE General Purpose Application
 
 I made it for Kathmandu University. But due to lack of financial support like money for servers etc I am unable to show online demo. If you want to support me or want me to work  please raise issue from issue tab or contact me directly.
 
-Use it as you like. 
+Use it as you like according to MIT licence. For setup please use this as a API which is built with Laravel, Vue and Tabler as UI. If you find using it consider donation.
+
+```
+https://github.com/shirshak786/smart-docse-api
+```
 
 # Screenshots
 ![Dashboard](/docs/screenshots/dashboard.png#1 "Dashboard")
