@@ -1,13 +1,7 @@
 # Smart DOCSE
 DOCSE General Purpose Application
 
-I made it for Kathmandu University. But due to lack of financial support like money for servers etc I am unable to show online demo. If you want to support me or want me to work  please raise issue from issue tab or contact me directly.
 
-Use it as you like according to MIT licence. For setup please use this as a API which is built with Laravel, Vue and Tabler as UI. If you find using it consider donation.
-
-```
-https://github.com/shirshak786/smart-docse-api
-```
 
 # Screenshots
 ![Dashboard](/docs/screenshots/dashboard.png#1 "Dashboard")
@@ -15,6 +9,15 @@ https://github.com/shirshak786/smart-docse-api
 ![Contact](/docs/screenshots/contact.png#3 "Contact")
 ![Result](/docs/screenshots/result.png#4 "Result")
 
+# Support
+
+I made it for Kathmandu University. If you like my work why not star it ;)
+
+Use it as you like according to MIT licence. For setup please use following url as a API which is built with Laravel, Vue and Tabler as UI. If you find using it consider donation.
+
+```
+https://github.com/shirshak786/smart-docse-api
+```
 
 # Technologies Used
 Various open source projects are used. We also have api built in for fetching various data. The main technology used are given below.
@@ -85,5 +88,8 @@ npm test
 # lint all JS/Vue component files in `src/`
 npm run lint
 
+
+NOW setup api server using this link https://github.com/shirshak786/smart-docse-api
 ```
+
 
