@@ -89,7 +89,10 @@ npm test
 npm run lint
 
 
-NOW setup api server using this link https://github.com/shirshak786/smart-docse-api
+Now setup api server using this link https://github.com/shirshak786/smart-docse-api
 ```
 
+
+# Paid Intallation
+If you want paid solution I can offer installation of api on digital ocean and setup application for you. Please contact me directly at shirshak55@gmail.com
 
